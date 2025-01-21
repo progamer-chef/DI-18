@@ -1,0 +1,72 @@
+<head>
+  <title>
+    template
+  </title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: "arial", serif;
+    }
+
+    .text {
+      display: none;
+      /* Hidden by default; shown after accepting cookies */
+      position: relative;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    /* Styling for the Next Button */
+    .next-button {
+      position: absolute;
+      bottom: 20px;
+      /* Adjust as needed */
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: hsl(225, 100%, 74%);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .next-button:hover {
+      background-color: hsl(227, 84%, 51%);
+    }
+
+    .logo {
+      position: fixed;
+      bottom: 0px;
+      right: 1px;
+      z-index: 10
+    }
+  </style>
+
+</head>
+<body>
+  <div class="text">
+    <p style="font-size:10px" "color:yellow"> hey guys, recently, the sponsor for this thing has come under fire, And i just wanna say tht im sorry to those affected. I didn t know how greedy and how they would turn their bank into a not-bank casino thing. I’m sorry to anyone who signed up using my link but also i am not a fiance person so like i couldnt tell whether they were legit from the start or not so its also not my fault. Im not saying its ur fault either, its the evil corporations faults. Duh. type shit!</p>
+    <button class="next-button" onclick="navigateToNextPage()">Next</button>
+  </div>
+
+    </p>
+  </div>
+  <script>
+    function navigateToNextPage() {
+      window.location.href = "https://www.example.com"; // Replace with your desired URL
+    }
+  </script>
+
+</body>
